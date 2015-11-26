@@ -7,6 +7,7 @@ var TodoSchema = new Schema({
 	name: String,
 	completed: Boolean,
 	note: String,
+	username: String,
 	updated: {type: Date, default: Date.now}
 }, {
 	collection: 'todos'
